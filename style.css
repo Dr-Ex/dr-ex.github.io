@@ -31,3 +31,40 @@ nav {
 	flex: 1 1 0;
 	font-size: 30px;
 }
+
+#photodrop {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+	text-align: center;
+}
+
+#photodrop:hover .dropdown-content {
+	display: block;
+}
+
+a {
+	color: #999999;
+	text-decoration: none;
+
+}
+
+a:hover {
+	color: #000000;
+}
+
+#profilephoto {
+	border-radius: 50%; 
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+
+}
